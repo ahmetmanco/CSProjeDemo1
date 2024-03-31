@@ -1,4 +1,4 @@
-﻿namespace _01_CSProjeDemo1.Entities
+﻿namespace _01_CSProjeDemo1.Enum
 {
     public enum Durum
     {

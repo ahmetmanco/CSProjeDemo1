@@ -8,5 +8,13 @@ namespace _01_CSProjeDemo1.Entities
 {
     public class Kutuphane
     {
+        public List<Kitap> Kitaplar { get; set; }
+        public List<Uye> Uyeler { get; set; }
+
+        public Kutuphane()
+        {
+            Kitaplar = new List<Kitap>();
+            Uyeler = new List<Uye>();
+        }
     }
 }
